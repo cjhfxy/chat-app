@@ -1,0 +1,6 @@
+d:  
+set PATH=%PATH%;"C:\Program Files\Java\jre1.8.0_231\bin"
+keytool -genkey -alias ytrw -keyalg RSA -keysize 2048 -validity 36500 -keystore ytrw.keystore
+证书密码: ytrw88952
+
+app.ytrw.com
