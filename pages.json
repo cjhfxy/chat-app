@@ -9,134 +9,15 @@
 			"style": {
 				"enablePullDownRefresh": true
 			}
-		},
-		{
-			"path": "pages/down/index",
-			"style": {
-				"enablePullDownRefresh": true
-			}
-		},
-		// 文章列表
-		{
-			"path": "pages/article/index/index"
-		},
-		// 文章列表
-		{
-			"path": "pages/article/list/index"
-		},
-		// 文章详情
-		{
-			"path": "pages/article/detail/index"
-		},
-		//接单
-		{
-			"path": "pages/task/home/index",
-			"style": {
-				"enablePullDownRefresh": true
-			}
-		},
-		//用户登录
-		{
-			"path": "pages/user/login/index"
-		},
-		//用户注册
-		{
-			"path": "pages/user/register/index"
-		},
-		//找回密码
-		{
-			"path": "pages/user/forget/index"
-		},
-		//我的
+		}, 
 		{
 			"path": "pages/user/home/index"
-		},
-		//个人信息
+		}, 
 		{
-			"path": "pages/user/info/index"
-		},
-		//我的任务
-		{
-			"path": "pages/user/task/index"
-		},
-		//修改提现密码
-		{
-			"path": "pages/user/withdrawPassword/index"
-		},
-		//我的任务详情
-		{
-			"path": "pages/user/task/detail",
-			"style": {
-				"enablePullDownRefresh": true
-			}
-		},
-		//账户余额
-		{
-			"path": "pages/user/cash/home/index"
-		},
-		//余额明细
-		{
-			"path": "pages/user/cash/log/index"
+			"path": "pages/home/chat/chat"
 		},
 		{
-			"path": "pages/user/password/index"
-		},
-		// 我的团队
-		{
-			"path": "pages/user/team/index"
-		},
-		//用户设置
-		{
-			"path": "pages/user/setting/index"
-		},
-		{
-			"path": "pages/user/card/choice/index"
-		},
-		{
-			"path": "pages/user/card/bind/index"
-		},
-		//分享好友
-		{
-			"path": "pages/user/share/home/index",
-			"style": {
-				"navigationBarTitleText": "分享好友",
-				"navigationStyle": "default",
-				"navigationBarBackgroundColor": "#FFFFFF",
-				"navigationBarTextStyle": "black"
-			}
-		},
-		//webView
-		{
-			"path": "pages/webView/index",
-			"style": {
-				"navigationStyle": "default",
-				"navigationBarBackgroundColor": "#FFFFFF",
-				"navigationBarTextStyle": "black"
-			}
-		},
-		{
-			"path": "pages/user/reward/index",
-			"style": {
-				"enablePullDownRefresh": true
-			}
-		},
-		{
-			"path": "pages/user/cash/withdraw/index"
-		},
-		{
-			"path": "pages/user/reward/history",
-			"style": {
-				"enablePullDownRefresh": true
-			}
-		},
-		{
-			"path": "pages/user/advice/index"
-		},
-		{
-			"path": "pages/user/feedbackList/index",
-			"style": {
-				"enablePullDownRefresh": true
-			}
+			"path": "pages/user/login/index"
 		}
 	],
 	"globalStyle": {
@@ -144,8 +25,8 @@
 		"navigationBarTextStyle": "white"
 	},
 	"tabBar": {
-		"color": "#BDBDBD",
-		"backgroundColor": "#FFFFFF",
+		"color": "#a9a9a9",
+		"backgroundColor": "#272a37",
 		"selectedColor": "#014C94",
 		"height": "98rpx",
 		"list": [{
@@ -154,12 +35,7 @@
 				"iconPath": "/static/tabs/home.png",
 				"selectedIconPath": "/static/tabs/home_s.png"
 			},
-			{
-				"pagePath": "pages/task/home/index",
-				"text": "接单",
-				"iconPath": "/static/tabs/task.png",
-				"selectedIconPath": "/static/tabs/task_s.png"
-			},
+
 			{
 				"pagePath": "pages/user/home/index",
 				"text": "我的",
